@@ -1,0 +1,40 @@
+---
+layout: home
+# vim: nospell
+---
+
+<div class="content first">
+{% capture header %}
+# {{site.title}} 
+
+*
+{{site.description}}
+*
+{% endcapture %}
+{{ header | markdownify }}
+</div><br><div class="content">
+{% capture index %}
+
+This is a simple index markup webpage with few links to :
+
+-  a [README](README.html) file,
+-  a [home](home.html) page,
+-  meeting [minutes](minutes.htm),
+-  a [frama](frama.htm) page,
+-  a [newsletter](newsletter.htm) and
+-  a [landing](landing.htm) one.
+
+{% endcapture %}
+{{ index | markdownify }}
+</div><br><div class="content">
+{% capture readme %}
+A [README](README.md) file included below : 
+
+{% include README.md %}
+{% endcapture %}
+{{ readme | markdownify }}
+</div><br><div class="footer">
+
+{% capture footer %} {% include footer.md %} {% endcapture %} {{ footer | markdownify }}
+</div>
+

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Link
+Name=jekyll.tk
+GenericName=Mini Jekyll
+StartupNotify=false
+URL=http://jekyll.tk
+URL=_site
+Name=_site
+Comment="build folder"
+Icon=folder
+Categories=website
