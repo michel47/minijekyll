@@ -1,12 +1,11 @@
 [Desktop Entry]
 Version=1.0
 Type=Link
-Name=jekyll.tk
+Name=Mini Jekyll (.tk)
 GenericName=Mini Jekyll
 StartupNotify=false
-URL=http://jekyll.tk
+URL=http://minijekyll.tk
 URL=.
-Name=this
 Comment="this folder"
 Icon=folder
 Categories=website
